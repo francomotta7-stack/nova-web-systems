@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitar Presupuesto | Nova Web Systems</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo" class="logo-img">
+            <span>NOVA WEB SYSTEMS</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Servicios</a></li>
+                <li><a href="presupuesto.html" class="actual">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-form">
+        <section class="form-section">
+            <h1>Cuéntanos tu proyecto</h1>
+            <form id="form-presupuesto">
+                <input type="text" placeholder="Tu Nombre completo" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="tel" placeholder="Teléfono de contacto" required>
+                <textarea placeholder="Explica brevemente qué necesitas para tu empresa..." required></textarea>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="acepto" required>
+                    <label for="acepto">Acepto los términos y la política de privacidad</label>
+                </div>
+                
+                <button type="submit" class="btn-enviar">Solicitar Cotización Gratis</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Nova Web Systems</p>
+    </footer>
+</body>
+</html>
